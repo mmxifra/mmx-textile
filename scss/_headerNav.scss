@@ -1,0 +1,60 @@
+@import "variables";
+@import "maps";
+
+
+.index__headerNav, .headerNav{
+	align-items: center;
+	.headerNav__img{
+		width: $logo;
+		padding-top: $pm20;
+	}
+
+	.headerNav__title{
+		display: none;
+		@media only screen and (min-width: 1024px){
+			color: map-get($color,accentColor);
+			font:{
+				family: $brandFont;
+				size: $signature;
+			}
+			line-height: $introTMob;
+			display: inline-block;
+		}
+	}
+
+	.headerNav__navbar{
+		@media only screen and (min-width: 1024px){
+			display: inline-flex;
+		}
+		.nav-item{
+			font-size: $menuMob;
+			margin: $pm10;
+			@media only screen and (min-width: 768px){
+				font-size: $menuTab;
+				margin-right: $pm25;
+			}
+			@media only screen and (min-width: 1024px){
+				font-size: $menuDesk;
+				margin-right: $pm25;
+			}
+			a{
+				color: map-get($color, textColor);
+				font-weight: $regular;
+			}
+			&:hover{
+				transform: scale(1.2);
+			}
+		}
+		.active{
+			@extend .nav-item;
+			a{
+				color: map-get($color, accentColor);
+				font-weight: $medium;
+			}
+		}
+	}
+}
+
+.headerNav--color{
+	background-image: linear-gradient( map-get($color, mainColor), map-get($color, backColor));	
+}

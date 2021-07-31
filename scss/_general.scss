@@ -1,0 +1,61 @@
+@import "variables";
+@import "maps";
+
+
+*{
+	margin: $pm0;
+	padding: $pm0;
+	list-style-type: none;
+	text-decoration: none;
+	align-items: center;
+}
+html{
+	font-size: 62.5%;
+}
+
+body{
+	width: 100%;
+	background-color: map-get($color, backColor);
+	color: map-get($color, textColor);
+	text-align: center;
+	justify-content: center;
+	font:{
+		family: $mainFont;
+		weight: $light;
+		size: $pMob;
+	}
+	@media only screen and (min-width: 768px){
+		font-size: $pTab;
+	}
+	@media only screen and (min-width: 1024px){
+		font-size: $pDesk;
+	}
+	img{
+		max-width: 100%;
+	}
+	overflow-x: hidden;
+	.index__background--img{
+		background-image: url("../assets/img/general/bckgImg.jpg"); 
+		background-size: $img;
+	}
+	.index__background--color{
+		background-color: map-get($color, mainColor);
+		border-bottom: map-get($color, introColor) solid 5px;
+	}
+	.intro, .content, .projectData, .contactForm{
+	align-items: center; 
+	justify-content: center;
+	padding: $pContainerMob;
+	@media only screen and (min-width: 1024px){
+		padding: $pContainerDesk;
+	}
+}
+}
+
+
+
+
+
+
+
+

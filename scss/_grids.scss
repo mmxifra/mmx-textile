@@ -1,0 +1,51 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.gridContent{
+		display: grid;
+		grid-template-areas: 
+		"uno dos"
+		"cuatro tres"
+		"cinco seis"
+		"ocho siete"
+		"nueve diez";
+		grid-template-columns: 50% 50%;
+		grid-template-columns: auto;
+	}
+	.uno{grid-area: uno;}
+	.dos{grid-area: dos;}
+	.tres{grid-area: tres;}
+	.cuatro{grid-area: cuatro;}
+	.cinco{grid-area: cinco;}
+	.seis{grid-area: seis;}
+	.siete{grid-area: siete;}
+	.ocho{grid-area: ocho;}
+	.nueve{grid-area: nueve;}
+	.diez{grid-area: diez;}
+	.contentImg{ width: 80%; }
+	.contentImg, .contentTxt{ justify-content: center; margin: 30px;}
+}
+
+@media only screen and (min-width: 1024px){
+	.gridContent{
+		display: grid;
+		grid-template-areas: 
+		"uno dos"
+		"cuatro tres"
+		"cinco seis"
+		"ocho siete"
+		"nueve diez";
+		grid-template-columns: 50% 50%;
+		grid-template-columns: auto;
+		justify-content: center;
+	}
+	.uno{grid-area: uno;}
+	.dos{grid-area: dos; margin-right: 50px;}
+	.tres{grid-area: tres;}
+	.cuatro{grid-area: cuatro;margin-left: 50px;}
+	.cinco{grid-area: cinco;}
+	.seis{grid-area: seis; margin-right: 50px;}
+	.siete{grid-area: siete;}
+	.ocho{grid-area: ocho;margin-left: 50px;}
+	.nueve{grid-area: nueve;}
+	.diez{grid-area: diez; margin-right: 50px;}
+	.contentTxt{ width: 90%; padding: 50px;}
+}

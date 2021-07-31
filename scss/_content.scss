@@ -1,0 +1,30 @@
+@import "variables";
+@import "maps";
+@import "mixins";
+
+
+
+.content{
+	.content__title{
+		@include title;
+	}
+	.content__text {
+		padding: $pTextMob;
+		a{
+			color: map-get($color, accentColor);
+			font-weight: $medium;
+		}
+		@media only screen and (min-width: 768px){
+			.headerNav__title{
+				padding: $pTextDesk;
+			}
+		}
+	}
+	.content__img{
+		width: $img;
+		padding: $pm10;
+	}
+	.content__img--size{
+		width: $profileImg;
+	}
+}

@@ -1,0 +1,63 @@
+@import "variables";
+@import "maps";
+
+@mixin intro{
+	font:{
+		weight: $xBold;
+		size: $introTMob;
+	}
+	padding: $pm20;
+		margin: $pm15;
+	@media only screen and (min-width: 768px){
+		font-size: $introTTab;
+	}
+	@media only screen and (min-width: 1024px){
+		font-size: $introTDesk;
+	}
+}
+
+@mixin title{
+	font:{
+		family: $mainFont;
+		weight: $bold;
+		size: $tMob;
+	}
+	color: map-get($color, titleColor);
+	padding: $pm20;
+	@media only screen and (min-width: 768px){
+		font-size: $tTab;
+	}
+	@media only screen and (min-width: 1024px){
+		font-size: $tDesk;
+	}
+}
+
+@mixin button{
+	font:{
+		weight: $medium;
+		size: $menuMob,
+	}
+	@media only screen and (min-width: 768px){
+		font-size: $menuTab;
+	}
+	@media only screen and (min-width: 1024px){
+		font-size: $menuDesk;
+	}
+	color: map-get($color, accentColor);
+	a{
+		color: map-get($color, accentColor);
+		text-decoration: none;
+	}
+	background-color: map-get($color, backColor);
+	border: map-get($color, accentColor) solid 2px;
+	border-radius: 5px;
+	padding: $pButton;
+	margin: $pm20;
+	&:hover{
+		color: map-get($color, accentColor);
+		text-decoration: none;
+		background-color: map-get($color, mainColor);
+		border: map-get($color, mainColor) solid 2px;
+		transform: scale(1.1);
+	}
+}

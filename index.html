@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Soy diseñadora, especializada en estampados textiles y desarrollo de producto. Ofrezco una amplia variedad de servicios para el rubro.">
+		<meta name="keywords" content="diseñador, diseño, textil, indumentaria, moda, estampados, estampas, serigrafia, schablon, cilindro, rapport, producto, tendencias, temporadas, otoño-invierno, primavera-verano, aw, ss, coloración, paletas">
+
+		<link rel="icon" href="assets/img/logoMMX.svg">
+		<title>Home - MMX Diseño</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		
+		<!-- link to CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="conainer-fluid">
+			<!-- empieza imagen de fondo -->
+			<div class="row index__background--img">
+				<!-- empieza HEADER/NAV -->
+				<header class="col-lg-12 col-md-12 col-xs-12 index__headerNav">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<a class="navbar-brand headerNav__img" href="index.html">
+							<img src="assets/img/logoMMX.svg" width="100" class="d-inline-block align-top" alt="logo"> 
+						</a>
+						<h1 class="align-top headerNav__title">Maria Manuela Xifra</h1>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+							<ul class="headerNav__navbar ">
+								<li class="nav-item active">
+									<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="views/about.html">Sobre mi</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="views/services.html">Servicios</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="views/projects.html">Proyectos</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="views/contact.html">Contacto</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</header>
+				<!-- termina HEADER/NAV -->
+	
+				<!-- empieza INTRO -->
+				<div class="col-lg-12 col-md-12 col-xs-12 intro">
+					<h3 class="intro__title">Bienvenido!</h3>
+					<p class="intro__text"> <strong>Gracias por pasar por acá.</strong></p>
+					<p class="intro__text">Si estás buscando desarrollar nuevos productos o estampados, y jugar con la paleta de color de la temporada recibiendo asesoramiento durante el proceso de desarrollo, te invito a ver lo que puedo ofrecerte.</p>
+					<button class="button"><a href="views/services.html">Ver Servicios</a></button>	
+
+					<!-- Button trigger modal -->
+					<button type="button" class="button--news" data-toggle="modal" data-target="#novedades">
+						News!
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="novedades" tabindex="-1" aria-labelledby="novedadesLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="novedadesLabel">Novedades!</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<p>Mirá los nuevos estampados de línea</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="button"><a href="./views/projects.html #line">Ver mas</a></button>
+									<button type="button--cancel" class="button--cancel" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<!-- termina INTRO -->
+			</div>
+			<!-- termina imagen de fondo -->
+
+			<!-- empieza SOBRE MI -->
+			<div class="row content">
+				<div class="col-xs-12 col-md-6 col-lg-6">
+					<img src="assets/img/general/profile.jpg" class="content__img--size" alt="foto perfil">
+				</div>
+				<div class="col-xs-12 col-md-6 col-lg-6">
+					<h3 class="content__title">Hola! Soy Manu</h3>
+					<p class="content__text">Soy diseñadora textil, graduada en la Universidad de Buenos Aires. <br> Desde el año 2010 he trabajado en desarrollo de producto en la industria textil y de la moda, principalmente abocada al rubro de la lencería y corsetería, aunque no exclusivamente. </p>
+					<button class="button"><a href="views/about.html">Saber mas</a></button>
+				</div>
+			</div>
+			<!-- termina SOBRE MI -->
+
+			<!-- empieza PROYECTOS -->
+			<div class="row projectData">
+				<div class="col-lg-6 col-md-6 col-xs-12 projectData__index">
+					<div class="card projectData__card">
+						<div class="card-body projectData__card__content">
+							<h2 class="card-title projectData__card__content__title">Desarrollos <br>Exclusivos</h2>
+							<a href="./views/projects.html #custom" class="btn botonForm button">Ver Mas</a>
+						</div>
+						<img src="assets/img/custom/soPink.jpg" class="card-img-top projectData__card__img" alt="so pink">
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-12 projectData__index">
+					<div class="card projectData__card">
+						<div class="card-body projectData__card__content">
+							<h2 class="card-title projectData__card__content__title">Estampados <br>de línea</h2>
+							<a href="./views/projects.html #line" class="btn botonForm button">Ver Mas</a>
+						</div>
+						<img src="assets/img/line/poppy.jpg" class="card-img-top projectData__card__img" alt="Amapolas">
+					</div>
+				</div>
+			</div>
+			<!-- termina PROYECTOS -->
+
+			<!-- empieza CONTACTO -->
+			<div class="row contactForm index__background--color">
+				<div class="col-lg-12 col-md-12 col-xs-12">
+					<form action="#" class="contactForm">
+						<h3 class="contactForm__title">Contactame!</h3>
+						<div class="contactForm__data">
+							<input type="text" name="nombre" placeholder="Nombre" class="contactForm__data__text"><br>
+							<input type="text" name="apellido" placeholder="Apellido" class="contactForm__data__text"><br>
+							<input type="email" name="email" placeholder="Email" class="contactForm__data__text"><br>
+						</div>
+						<div class="contactForm__option">
+							<select name="servicio" id="servicio">
+								<option value="" selected disabled> Servicio</option>
+								<option value="estampas y estampados">Estampas</option>
+								<option value="exclusivos o de linea">Desarrollos exclusivos</option>
+								<option value="exclusivos o de linea">Estampados de línea</option>
+								<option value="Desarrollo de producto">Desarrollo de producto</option>
+								<option value="Cartas de color">Cartas de color</option>
+								<option value="analisis de tendencias">Análisis de tendencias</option>
+							</select>				
+						</div>
+						<div class="contactForm__radio">
+							<input type="radio" id="Subscribe1" name="subscribe1" value="newsletter">
+							<label for="subscribe1" class="contactForm__radio--size">Subscribir al newsletter </label>
+							<input type="radio" id="Subscribe1" name="subscribe1" value="no newsletters">
+							<label for="subscribe1" class="contactForm__radio--size">No recibir mails</label>
+						</div>	
+						<div class="contactForm__text">
+							<textarea name="mensaje" id="" cols="30" rows="10"></textarea><br>
+						</div>
+						<div>
+							<input type="submit" value="Enviar" class="button--send">
+							<input type="reset" value="borrar" class="button--cancel">
+						</div>	
+					</form>	
+				</div>
+			</div>
+			<!-- termina CONTACTO -->
+			
+			<!-- empieza FOOTER -->
+			<div class="row footer__background--color">
+				<div class="col-lg-12 col-md-12 col-xs-12">
+					<footer class="footer">
+						<p class="footer__text">Diseñado por <a href="https://www.linkedin.com/in/mmxifra" target="_blank">MMX</a></p>
+						<img src="assets/img/logoMMX.svg" alt="Logo" class="footer__img">
+						<div class="footer__socialMedia">
+							<p>Seguime en</p>
+							<a href="https://www.instagram.com/" target="_blank"><img src="assets/img/logo-Ig.svg " alt="logo instagram" class="footer__socialMedia__icon"></a>
+							<a href="https://www.facebook.com/" target="_blank"><img src="assets/img/logo-Fb.svg " alt="logo facebook" class="footer__socialMedia__icon"></a>
+							<a href="https://www.linkedin.com/in/mmxifra" target="_blank"><img src="assets/img/logo-In.svg " alt="logo linkedin" class="footer__socialMedia__icon"></a>
+						</div>
+					</footer>
+				</div>	
+			</div>
+			<!-- termina FOOTER -->
+
+		</div>
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	</body>
+</html>

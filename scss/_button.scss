@@ -1,0 +1,36 @@
+@import "variables";
+@import "maps";
+@import "mixins";
+
+
+.button {
+	@include button;
+}
+.button--news {
+	@extend .button;
+	color: map-get($color, newsColor);
+	font-size: 2rem;
+	border-color: map-get($color, newsColor);
+	&:hover{
+		color: map-get($color, backColor);
+	border-color: map-get($color, newsColor);
+		transform: scale(1.3);
+		background-color: map-get($color, newsColor);
+	}
+}
+.button--send{
+	@extend .button;
+	&:hover{
+		color: map-get($color, backColor);
+		background-color: map-get($color, accentColor);
+		border-color: map-get($color, accentColor);
+	}
+}
+.button--cancel{
+	@extend .button;
+	&:hover{
+		color: map-get($color, backColor);
+		background-color: map-get($color, textColor);
+		border-color: map-get($color, textColor);
+	}
+}

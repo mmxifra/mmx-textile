@@ -1,0 +1,61 @@
+@import "variables";
+@import "maps";
+@import "mixins";
+
+
+
+
+.projectData{
+	justify-content: center;
+	.projectData__card__content__title, .projectData__content__title{
+		@include title;
+		color: map-get($color, accentColor);
+		background-color: map-get($color, mainColor);
+	}
+	.projectData__card{
+		margin: $pm10;
+		@media only screen and (min-width: 1024px){
+			width: $cardDesk;
+			display: inline-block;
+		}
+		.projectData__card__img{
+			background-color: map-get($color, mainColor);
+			padding: $pm20;
+		}
+		.projectData__card__content{
+			width: $img;
+			padding: $pm0;
+			h2{
+				padding: $pm20;
+			}
+		}
+	}
+	.projectData__content{
+		padding: $pProject;
+		.projectData__content__title{
+			padding: $pm20;
+		}
+		.projectData__content__text{
+			padding: $pTextMob;
+			@media only screen and (min-width: 1024px){
+				padding: $pTextDesk;
+			}
+			a{
+				color: map-get($color, accentColor);
+				font-weight: $medium;
+			}
+		}
+	}
+	.projectData__list__title{
+		color: map-get($color, titleColor);
+		font-size: $introPMob;
+		margin: $pm15;
+		@media only screen and (min-width: 1024px){
+			font-size: $introPDesk;
+		}
+	}
+	.projectData__img{
+		max-width: $img;
+		margin-top: $pm20;
+	}
+}

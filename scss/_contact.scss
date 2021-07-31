@@ -1,0 +1,39 @@
+@import "variables";
+@import "maps";
+
+
+
+
+.contactForm{
+	justify-content: center;
+	.contactForm__title{
+		@include title;
+		color: map-get($color, titleColor);
+	}
+	.contactForm__option select{
+		color: map-get($color, textColor);
+	}
+	.contactForm__radio label{
+		font-size: $pMob;
+		padding: $pLabel;
+	}
+	.contactForm__data input, .contactForm__option select, .contactForm__text textarea, .contactForm__info{
+		border: none;
+		border-radius: 5px;
+		margin: $pm5;
+		background-color: map-get($color, formColor);
+			width: 100%;
+		@media only screen and (min-width: 768px){
+			width: 80%;
+		}
+		@media only screen and (min-width: 1024px){
+			width: 60%;
+		}
+	}
+	.contactForm__info{
+		display: inline-flex;
+		justify-content: center;
+		padding: $pm15;
+		margin: $pm0;
+	}
+}

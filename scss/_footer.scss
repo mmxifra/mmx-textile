@@ -1,0 +1,30 @@
+@import "variables";
+@import "maps";
+
+
+.footer__background--color{
+	background-image: linear-gradient( map-get($color, backColor), map-get($color, mainColor));
+}
+.footer{
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	.footer__text a{
+		color: map-get($color, accentColor);
+		font-weight: $medium;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.footer__img{
+		width: $logoFoot;
+		height: auto;
+	}
+	.footer__socialMedia__icon{
+		width: $icon;
+		margin: $pm5;
+		&:hover{
+			transform: scale(1.2);
+		}
+	}
+}
