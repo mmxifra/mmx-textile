@@ -25,7 +25,8 @@ body {
     body {
       font-size: 2rem; } }
   body img {
-    max-width: 100%; }
+    max-width: 100%;
+    height: auto; }
   body .index__background--img {
     background-image: url("../assets/img/general/bckgImg.jpg");
     background-size: 100%; }
@@ -44,6 +45,7 @@ body {
   align-items: center; }
   .index__headerNav .headerNav__img, .headerNav .headerNav__img {
     width: 150px;
+    height: auto;
     padding-top: 20px; }
   .index__headerNav .headerNav__title, .headerNav .headerNav__title {
     display: none; }
@@ -137,7 +139,8 @@ body {
   padding: 10px; }
 
 .content .content__img--size {
-  width: 80%; }
+  width: 80%;
+  height: auto; }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .gridContent {
@@ -234,6 +237,7 @@ body {
       padding: 20px; }
     .projectData .projectData__card .projectData__card__content {
       width: 100%;
+      height: auto;
       padding: 0px; }
       .projectData .projectData__card .projectData__card__content h2 {
         padding: 20px; }
@@ -350,7 +354,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  padding: 15px 0px; }
   .footer .footer__text a {
     color: #D69C93;
     font-weight: 600;
