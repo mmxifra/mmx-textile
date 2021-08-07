@@ -18,7 +18,7 @@ body {
   font-weight: 300;
   font-size: 1.5rem;
   overflow-x: hidden; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 736px) {
     body {
       font-size: 1.5rem; } }
   @media only screen and (min-width: 1024px) {
@@ -62,7 +62,7 @@ body {
   .index__headerNav .headerNav__navbar .nav-item, .index__headerNav .headerNav__navbar .active, .headerNav .headerNav__navbar .nav-item, .headerNav .headerNav__navbar .active {
     font-size: 1.3rem;
     margin: 10px; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 736px) {
       .index__headerNav .headerNav__navbar .nav-item, .index__headerNav .headerNav__navbar .active, .headerNav .headerNav__navbar .nav-item, .headerNav .headerNav__navbar .active {
         font-size: 1.3rem;
         margin-right: 25px; } }
@@ -88,7 +88,7 @@ body {
   padding: 20px;
   margin: 15px;
   color: #EEC5B9; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 736px) {
     .intro .intro__title {
       font-size: 6rem; } }
   @media only screen and (min-width: 1024px) {
@@ -98,7 +98,7 @@ body {
 .intro .intro__text {
   font-size: 2rem;
   padding: 15px 25px; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 736px) {
     .intro .intro__text {
       font-size: 2.2rem;
       padding: 15px 50px; } }
@@ -118,7 +118,7 @@ body {
   font-size: 2.5rem;
   color: #B2B2B1;
   padding: 20px; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 736px) {
     .content .content__title {
       font-size: 2.5rem; } }
   @media only screen and (min-width: 1024px) {
@@ -130,7 +130,7 @@ body {
   .content .content__text a {
     color: #D69C93;
     font-weight: 600; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 736px) {
     .content .content__text .headerNav__title {
       padding: 15px 50px; } }
 
@@ -142,7 +142,7 @@ body {
   width: 80%;
   height: auto; }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 736px) and (max-width: 1023px) {
   .gridContent {
     display: grid;
     grid-template-areas: "uno dos" "cuatro tres" "cinco seis" "ocho siete" "nueve diez";
@@ -220,7 +220,7 @@ body {
     padding: 20px;
     color: #D69C93;
     background-color: #F6DFD6; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 736px) {
       .projectData .projectData__card__content__title, .projectData .projectData__content__title {
         font-size: 2.5rem; } }
     @media only screen and (min-width: 1024px) {
@@ -273,7 +273,7 @@ body {
     color: #B2B2B1;
     padding: 20px;
     color: #B2B2B1; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 736px) {
       .contactForm .contactForm__title {
         font-size: 2.5rem; } }
     @media only screen and (min-width: 1024px) {
@@ -290,7 +290,7 @@ body {
     margin: 5px;
     background-color: #FAEFEA;
     width: 100%; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 736px) {
       .contactForm .contactForm__data input, .contactForm .contactForm__option select, .contactForm .contactForm__text textarea, .contactForm .contactForm__info {
         width: 80%; } }
     @media only screen and (min-width: 1024px) {
@@ -311,7 +311,7 @@ body {
   border-radius: 5px;
   padding: 5px 10px;
   margin: 20px; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 736px) {
     .button, .button--news, .button--send, .button--cancel {
       font-size: 1.3rem; } }
   @media only screen and (min-width: 1024px) {

@@ -23,7 +23,7 @@
 		margin: $pm5;
 		background-color: map-get($color, formColor);
 			width: 100%;
-		@media only screen and (min-width: 768px){
+		@media only screen and (min-width: 736px){
 			width: 80%;
 		}
 		@media only screen and (min-width: 1024px){
