@@ -9,7 +9,6 @@
 .button--news {
 	@extend .button;
 	color: map-get($color, newsColor);
-	font-size: 2rem;
 	border-color: map-get($color, newsColor);
 	&:hover{
 		color: map-get($color, backColor);
