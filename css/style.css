@@ -361,10 +361,16 @@ body {
     padding-top: 10px;
     padding-bottom: 10px; }
   .footer .footer__img {
-    width: 50px;
+    width: 35px;
     height: auto; }
+    @media only screen and (min-width: 768px) {
+      .footer .footer__img {
+        width: 70px; } }
   .footer .footer__socialMedia__icon {
     width: 25px;
-    margin: 5px; }
+    margin: 2.5px; }
     .footer .footer__socialMedia__icon:hover {
       transform: scale(1.2); }
+    @media only screen and (min-width: 768px) {
+      .footer .footer__socialMedia__icon {
+        width: 37.5px; } }

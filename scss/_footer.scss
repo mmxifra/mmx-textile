@@ -20,12 +20,18 @@
 	.footer__img{
 		width: $logoFoot;
 		height: auto;
+		@media only screen and (min-width: 768px){
+			width: $logoFoot *2;
+		}
 	}
 	.footer__socialMedia__icon{
 		width: $icon;
-		margin: $pm5;
+		margin: $pm5/2;
 		&:hover{
 			transform: scale(1.2);
+		}
+		@media only screen and (min-width: 768px){
+			width: $icon *1.5;
 		}
 	}
 }
