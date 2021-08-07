@@ -8,7 +8,7 @@
 	}
 	padding: $pm20;
 		margin: $pm15;
-	@media only screen and (min-width: 736px){
+	@media only screen and (min-width: 768px){
 		font-size: $introTTab;
 	}
 	@media only screen and (min-width: 1024px){
@@ -24,7 +24,7 @@
 	}
 	color: map-get($color, titleColor);
 	padding: $pm20;
-	@media only screen and (min-width: 736px){
+	@media only screen and (min-width: 768px){
 		font-size: $tTab;
 	}
 	@media only screen and (min-width: 1024px){
@@ -37,7 +37,7 @@
 		weight: $medium;
 		size: $menuMob,
 	}
-	@media only screen and (min-width: 736px){
+	@media only screen and (min-width: 768px){
 		font-size: $menuTab;
 	}
 	@media only screen and (min-width: 1024px){

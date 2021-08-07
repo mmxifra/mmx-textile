@@ -30,7 +30,7 @@
 		.nav-item{
 			font-size: $menuMob;
 			margin: $pm10;
-			@media only screen and (min-width: 736px){
+			@media only screen and (min-width: 768px){
 				font-size: $menuTab;
 				margin-right: $pm25;
 			}
