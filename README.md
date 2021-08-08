@@ -15,4 +15,4 @@ Sitio responsive, desarrollado mobile first y adaptable a tablet y desktop.
 
 * HTML
 * Bootstrap (para la mayor parte del sitio, salvo en parte del contenido de about.html y services.html que se utiliza grids para obtener la ubicación deseada en las diferentes medias queries)
-* SASS 
+* SCSS 
