@@ -27,8 +27,11 @@
 	.content__img--size{
 		width: $profileImg;
 		height: auto;
+		padding-bottom: $pm20;
 		@media only screen and (min-width: 1024px){
 			width: $profileImgDesk;
+			padding-bottom: $pm25;
+			margin-bottom: $pm25;
 		}
 	}
 }
