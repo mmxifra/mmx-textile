@@ -141,6 +141,9 @@ body {
 .content .content__img--size {
   width: 80%;
   height: auto; }
+  @media only screen and (min-width: 1024px) {
+    .content .content__img--size {
+      width: 50%; } }
 
 @media only screen and (min-width: 576px) and (max-width: 1023px) {
   .gridContent {
