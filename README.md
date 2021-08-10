@@ -1,4 +1,4 @@
-# proyecto_dw
+# mmx-textile
 
 ## Proyecto para curso de desarrollo web
 
