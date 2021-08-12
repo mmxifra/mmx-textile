@@ -6,6 +6,7 @@
 	.intro__title{
 		@include intro;
 		color:$introColor;
+		padding-top: $pm50;
 	}
 	.intro__text{
 		font-size: $introPMob;
@@ -25,5 +26,11 @@
 			weight: $xBold;
 		}
 		color:$introColor;
+	}
+	.button{
+		margin-bottom: $pm25;
+		@media only screen and (min-width: 1024px){
+			margin-bottom: $pm50;
+		}
 	}
 }

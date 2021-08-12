@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -43,6 +51,14 @@ body {
       body .intro, body .content, body .projectData, body .contactForm {
         padding: 10px 50px; } }
 
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
 .index__headerNav, .headerNav {
   align-items: center; }
   .index__headerNav .headerNav__img, .headerNav .headerNav__img {
@@ -56,7 +72,7 @@ body {
         color: #D69C93;
         font-family: "dreamOnly";
         font-size: 1.7rem;
-        line-height: 4rem;
+        line-height: 7rem;
         display: inline-block; } }
   @media only screen and (min-width: 1024px) {
     .index__headerNav .headerNav__navbar, .headerNav .headerNav__navbar {
@@ -84,18 +100,35 @@ body {
 .headerNav--color {
   background-image: linear-gradient(#F6DFD6, #FFFBFA); }
 
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
 .intro .intro__title {
-  font-weight: 800;
-  font-size: 4rem;
+  font-family: "reckless";
+  font-size: 7rem;
   padding: 20px;
   margin: 15px;
-  color: #EEC5B9; }
+  color: #EEC5B9;
+  padding-top: 50px; }
   @media only screen and (min-width: 768px) {
     .intro .intro__title {
-      font-size: 6rem; } }
+      font-size: 10rem; } }
   @media only screen and (min-width: 1024px) {
     .intro .intro__title {
-      font-size: 8rem; } }
+      font-size: 14rem; } }
 
 .intro .intro__text {
   font-size: 2rem;
@@ -113,6 +146,28 @@ body {
   font-size: 3rem;
   font-weight: 800;
   color: #EEC5B9; }
+
+.intro .button, .intro .button--news, .intro .button--send, .intro .button--cancel {
+  margin-bottom: 25px; }
+  @media only screen and (min-width: 1024px) {
+    .intro .button, .intro .button--news, .intro .button--send, .intro .button--cancel {
+      margin-bottom: 50px; } }
+
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
 
 @media only screen and (min-width: 1024px) {
   .content {
@@ -227,6 +282,22 @@ body {
     width: 90%;
     padding: 50px; } }
 
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
 .projectData {
   justify-content: center; }
   .projectData .projectData__card__content__title, .projectData .projectData__content__title {
@@ -285,6 +356,14 @@ body {
       transition: 1s;
       transform: scale(1.02); }
 
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
 .contactForm {
   justify-content: center; }
   @media only screen and (min-width: 1024px) {
@@ -324,6 +403,22 @@ body {
   @media only screen and (min-width: 1024px) {
     .contactForm .contactForm__img img {
       width: 80%; } }
+
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
+
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
 
 .button, .button--news, .button--send, .button--cancel {
   font-weight: 600;
@@ -368,6 +463,14 @@ body {
   color: #FFFBFA;
   background-color: #575757;
   border-color: #575757; }
+
+@font-face {
+  font-family: 'dreamOnly';
+  src: url(../assets/fonts/DreamOnly.ttf); }
+
+@font-face {
+  font-family: 'reckless';
+  src: url(../assets/fonts/reckless_sample.ttf); }
 
 .footer__background--color {
   background-image: linear-gradient(#FFFBFA, #F6DFD6); }

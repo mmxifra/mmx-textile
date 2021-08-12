@@ -9,8 +9,11 @@ $formColor: #FAEFEA;
 $newsColor: #BB828E;
 
 //fonts
+@font-face {font-family: 'dreamOnly';src: url(../assets/fonts/DreamOnly.ttf);}
+@font-face {font-family: 'reckless';src: url(../assets/fonts/reckless_sample.ttf);}
 $mainFont: 'montserrat', sans-serif;
 $brandFont: 'dreamOnly'; 
+$introTFont: 'reckless';
 
 //weight
 $light: 300;
@@ -21,14 +24,14 @@ $xBold: 800;
 
 //size Mobile
 $menuMob: 1.3rem;
-$introTMob: 4rem;
+$introTMob: 7rem;
 $introPMob: 2rem;
 $tMob: 2.5rem;
 $pMob: 1.5rem;
 
 //size tablet
 $menuTab: 1.3rem;
-$introTTab: 6rem;
+$introTTab: 10rem;
 $introPTab: 2.2rem;
 $tTab: 2.5rem;
 $pTab: 1.5rem;
@@ -36,7 +39,7 @@ $pTab: 1.5rem;
 //size desktop
 $signature: 1.7rem; 
 $menuDesk: 1.5rem;
-$introTDesk: 8rem;
+$introTDesk: 14rem;
 $introPDesk: 2.5rem; 
 $tDesk: 3rem;
 $pDesk: 2rem;
@@ -58,6 +61,7 @@ $pm15: 15px;
 $pm20: 20px;
 $pm25: 25px;
 $pm50: 50px;
+$pm100: 120px;
 $pContainerDesk: 10px 50px;
 $pContainerMob: 35px 10px;
 $pProject: 30px 0px;
