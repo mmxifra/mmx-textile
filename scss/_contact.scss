@@ -5,6 +5,9 @@
 
 .contactForm{
 	justify-content: center;
+	@media only screen and (min-width: 1024px){
+			margin-left: $pm50;
+		}
 	.contactForm__title{
 		@include title;
 		color: $titleColor;
@@ -16,7 +19,7 @@
 		font-size: $pMob;
 		padding: $pLabel;
 	}
-	.contactForm__data input, .contactForm__option select, .contactForm__text textarea, .contactForm__info{
+	.contactForm__data input, .contactForm__option select, .contactForm__text textarea{
 		border: none;
 		border-radius: 5px;
 		margin: $pm5;
@@ -25,14 +28,16 @@
 		@media only screen and (min-width: 768px){
 			width: 80%;
 		}
-		@media only screen and (min-width: 1024px){
-			width: 60%;
-		}
 	}
+
 	.contactForm__info{
-		display: inline-flex;
 		justify-content: center;
-		padding: $pm15;
-		margin: $pm0;
+		padding: $pm20;
+		margin: $pm5;
+	}
+	.contactForm__img img{
+		@media only screen and (min-width: 1024px){
+			width: 80%;
+		}
 	}
 }

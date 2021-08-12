@@ -26,7 +26,8 @@ body {
       font-size: 2rem; } }
   body img {
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    border-radius: 5%; }
   body .index__background--img {
     background-image: url("../assets/img/general/bckgImg.png");
     background-size: 100%; }
@@ -250,7 +251,8 @@ body {
         display: inline-block; } }
     .projectData .projectData__card .projectData__card__img {
       background-color: #F6DFD6;
-      padding: 20px; }
+      padding: 20px;
+      border-radius: 0%; }
     .projectData .projectData__card .projectData__card__content {
       width: 100%;
       height: auto;
@@ -281,10 +283,13 @@ body {
     margin-top: 20px; }
     .projectData .projectData__img:hover {
       transition: 1s;
-      transform: scale(1.05); }
+      transform: scale(1.02); }
 
 .contactForm {
   justify-content: center; }
+  @media only screen and (min-width: 1024px) {
+    .contactForm {
+      margin-left: 50px; } }
   .contactForm .contactForm__title {
     font-family: "montserrat", sans-serif;
     font-weight: 700;
@@ -303,23 +308,22 @@ body {
   .contactForm .contactForm__radio label {
     font-size: 1.5rem;
     padding: 0px 20px 0px 0px; }
-  .contactForm .contactForm__data input, .contactForm .contactForm__option select, .contactForm .contactForm__text textarea, .contactForm .contactForm__info {
+  .contactForm .contactForm__data input, .contactForm .contactForm__option select, .contactForm .contactForm__text textarea {
     border: none;
     border-radius: 5px;
     margin: 5px;
     background-color: #FAEFEA;
     width: 100%; }
     @media only screen and (min-width: 768px) {
-      .contactForm .contactForm__data input, .contactForm .contactForm__option select, .contactForm .contactForm__text textarea, .contactForm .contactForm__info {
+      .contactForm .contactForm__data input, .contactForm .contactForm__option select, .contactForm .contactForm__text textarea {
         width: 80%; } }
-    @media only screen and (min-width: 1024px) {
-      .contactForm .contactForm__data input, .contactForm .contactForm__option select, .contactForm .contactForm__text textarea, .contactForm .contactForm__info {
-        width: 60%; } }
   .contactForm .contactForm__info {
-    display: inline-flex;
     justify-content: center;
-    padding: 15px;
-    margin: 0px; }
+    padding: 20px;
+    margin: 5px; }
+  @media only screen and (min-width: 1024px) {
+    .contactForm .contactForm__img img {
+      width: 80%; } }
 
 .button, .button--news, .button--send, .button--cancel {
   font-weight: 600;
