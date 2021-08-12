@@ -1,5 +1,4 @@
 @import "variables";
-@import "maps";
 @import "mixins";
 
 
@@ -9,8 +8,8 @@
 	justify-content: center;
 	.projectData__card__content__title, .projectData__content__title{
 		@include title;
-		color: map-get($color, accentColor);
-		background-color: map-get($color, mainColor);
+		color: $accentColor;
+		background-color: $mainColor;
 	}
 	.projectData__card{
 		margin: $pm10;
@@ -19,7 +18,7 @@
 			display: inline-block;
 		}
 		.projectData__card__img{
-			background-color: map-get($color, mainColor);
+			background-color: $mainColor;
 			padding: $pm20;
 		}
 		.projectData__card__content{
@@ -42,13 +41,13 @@
 				padding: $pTextDesk;
 			}
 			a{
-				color: map-get($color, accentColor);
+				color: $accentColor;
 				font-weight: $medium;
 			}
 		}
 	}
 	.projectData__list__title{
-		color: map-get($color, titleColor);
+		color: $titleColor;
 		font-size: $introPMob;
 		margin: $pm15;
 		@media only screen and (min-width: 1024px){

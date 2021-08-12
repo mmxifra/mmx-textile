@@ -1,5 +1,4 @@
 @import "variables";
-@import "maps";
 @import "mixins";
 
 
@@ -17,7 +16,7 @@
 		padding: $pTextMob;
 		margin: $pm20;
 		a{
-			color: map-get($color, accentColor);
+			color: $accentColor;
 			font-weight: $medium;
 		}
 		@media only screen and (min-width: 768px){

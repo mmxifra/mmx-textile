@@ -1,5 +1,4 @@
 @import "variables";
-@import "maps";
 
 
 .index__headerNav, .headerNav{
@@ -13,7 +12,7 @@
 	.headerNav__title{
 		display: none;
 		@media only screen and (min-width: 1024px){
-			color: map-get($color,accentColor);
+			color: $accentColor;
 			font:{
 				family: $brandFont;
 				size: $signature;
@@ -39,7 +38,7 @@
 				margin-right: $pm25;
 			}
 			a{
-				color: map-get($color, textColor);
+				color: $textColor;
 				font-weight: $regular;
 			}
 			&:hover{
@@ -49,7 +48,7 @@
 		.active{
 			@extend .nav-item;
 			a{
-				color: map-get($color, accentColor);
+				color: $accentColor;
 				font-weight: $medium;
 			}
 		}
@@ -57,5 +56,5 @@
 }
 
 .headerNav--color{
-	background-image: linear-gradient( map-get($color, mainColor), map-get($color, backColor));	
+	background-image: linear-gradient($mainColor, $backColor);	
 }

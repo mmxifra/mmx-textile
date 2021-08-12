@@ -1,5 +1,4 @@
 @import "variables";
-@import "maps";
 
 
 
@@ -8,10 +7,10 @@
 	justify-content: center;
 	.contactForm__title{
 		@include title;
-		color: map-get($color, titleColor);
+		color: $titleColor;
 	}
 	.contactForm__option select{
-		color: map-get($color, textColor);
+		color: $textColor;
 	}
 	.contactForm__radio label{
 		font-size: $pMob;
@@ -21,7 +20,7 @@
 		border: none;
 		border-radius: 5px;
 		margin: $pm5;
-		background-color: map-get($color, formColor);
+		background-color: $formColor;
 			width: 100%;
 		@media only screen and (min-width: 768px){
 			width: 80%;

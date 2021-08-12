@@ -1,5 +1,4 @@
 @import "variables";
-@import "maps";
 
 @mixin intro{
 	font:{
@@ -22,7 +21,7 @@
 		weight: $bold;
 		size: $tMob;
 	}
-	color: map-get($color, titleColor);
+	color: $titleColor;
 	padding: $pm20;
 	@media only screen and (min-width: 768px){
 		font-size: $tTab;
@@ -43,21 +42,21 @@
 	@media only screen and (min-width: 1024px){
 		font-size: $menuDesk;
 	}
-	color: map-get($color, accentColor);
+	color: $accentColor;
 	a{
-		color: map-get($color, accentColor);
+		color: $accentColor;
 		text-decoration: none;
 	}
-	background-color: map-get($color, backColor);
-	border: map-get($color, accentColor) solid 2px;
+	background-color: $backColor;
+	border: $accentColor solid 2px;
 	border-radius: 5px;
 	padding: $pButton;
 	margin: $pm20;
 	&:hover{
-		color: map-get($color, accentColor);
+		color: $accentColor;
 		text-decoration: none;
-		background-color: map-get($color, mainColor);
-		border: map-get($color, mainColor) solid 2px;
+		background-color: $mainColor;
+		border: $mainColor solid 2px;
 		transform: scale(1.1);
 	}
 }

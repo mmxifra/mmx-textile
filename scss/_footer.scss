@@ -1,9 +1,8 @@
 @import "variables";
-@import "maps";
 
 
 .footer__background--color{
-	background-image: linear-gradient( map-get($color, backColor), map-get($color, mainColor));
+	background-image: linear-gradient( $backColor, $mainColor);
 }
 .footer{
 	width: 100%;
@@ -11,15 +10,12 @@
 	justify-content: space-around;
 	align-items: center;
 	padding: $pm25 $pm0;
-	.footer__text a{
-		color: map-get($color, accentColor);
-		font-weight: $medium;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
 	.footer__img{
 		width: $logoFoot;
 		height: auto;
+		&:hover{
+			transform: scale(1.2);
+		}
 		@media only screen and (min-width: 768px){
 			width: $logoFoot *2;
 		}
@@ -35,3 +31,14 @@
 		}
 	}
 }
+.footer__text{
+	font-size: $pMob;
+	 a{
+		font-weight: $medium;
+		color: $accentColor;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+

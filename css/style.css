@@ -32,7 +32,8 @@ body {
     background-size: 100%; }
   body .index__background--color {
     background-color: #F6DFD6;
-    border-bottom: #EEC5B9 solid 5px; }
+    border-bottom: #EEC5B9 solid 5px;
+    margin-top: 50px; }
   body .intro, body .content, body .projectData, body .contactForm {
     align-items: center;
     justify-content: center;
@@ -373,14 +374,11 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 25px 0px; }
-  .footer .footer__text a {
-    color: #D69C93;
-    font-weight: 600;
-    padding-top: 10px;
-    padding-bottom: 10px; }
   .footer .footer__img {
     width: 35px;
     height: auto; }
+    .footer .footer__img:hover {
+      transform: scale(1.2); }
     @media only screen and (min-width: 768px) {
       .footer .footer__img {
         width: 70px; } }
@@ -392,3 +390,11 @@ body {
     @media only screen and (min-width: 768px) {
       .footer .footer__socialMedia__icon {
         width: 37.5px; } }
+
+.footer__text {
+  font-size: 1.5rem; }
+  .footer__text a {
+    font-weight: 600;
+    color: #D69C93;
+    padding-top: 10px;
+    padding-bottom: 10px; }

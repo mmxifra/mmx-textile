@@ -1,5 +1,4 @@
 @import "variables";
-@import "maps";
 
 *{
 	margin: $pm0;
@@ -14,8 +13,8 @@ html{
 
 body{
 	width: 100%;
-	background-color: map-get($color, backColor);
-	color: map-get($color, textColor);
+	background-color: $backColor;
+	color: $textColor;
 	text-align: center;
 	justify-content: center;
 	font:{
@@ -39,8 +38,9 @@ body{
 		background-size: $img;
 	}
 	.index__background--color{
-		background-color: map-get($color, mainColor);
-		border-bottom: map-get($color, introColor) solid 5px;
+		background-color: $mainColor;
+		border-bottom: $introColor solid 5px;
+		margin-top: $pm50;
 	}
 	.intro, .content, .projectData, .contactForm{
 		align-items: center; 

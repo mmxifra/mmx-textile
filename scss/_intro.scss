@@ -1,12 +1,11 @@
 @import "variables";
-@import "maps";
 @import "mixins";
 
 
 .intro{
 	.intro__title{
 		@include intro;
-		color: map-get($color, introColor);
+		color:$introColor;
 	}
 	.intro__text{
 		font-size: $introPMob;
@@ -25,6 +24,6 @@
 			size: $tDesk;
 			weight: $xBold;
 		}
-		color: map-get($color, introColor);
+		color:$introColor;
 	}
 }
