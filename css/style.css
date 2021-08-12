@@ -131,7 +131,8 @@ body {
       font-size: 3rem; } }
 
 .content .content__text {
-  padding: 15px 5px; }
+  padding: 15px 5px;
+  margin: 20px; }
   .content .content__text a {
     color: #D69C93;
     font-weight: 600; }
@@ -142,6 +143,9 @@ body {
 .content .content__img {
   width: 100%;
   padding: 10px; }
+  .content .content__img:hover {
+    transition: 1s;
+    transform: scale(0.95); }
 
 .content .content__img--size {
   width: 80%;
@@ -274,6 +278,9 @@ body {
   .projectData .projectData__img {
     max-width: 100%;
     margin-top: 20px; }
+    .projectData .projectData__img:hover {
+      transition: 1s;
+      transform: scale(1.05); }
 
 .contactForm {
   justify-content: center; }

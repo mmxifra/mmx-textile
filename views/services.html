@@ -15,6 +15,9 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+		<!-- css AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 		
@@ -27,7 +30,7 @@
 			<div class="row  headerNav--color">
 				<header class="col-lg-12 col-sm-12 col-xs-12 headerNav">
 					<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand headerNav__img" href="../index.html">
+						<a class="navbar-brand headerNav__img" href="../index.html" data-aos="zoom-in" data-aos-duration="2000">
 							<img src="../assets/img/logoMMX.svg" width="100" class="d-inline-block align-top" alt="logo"> 
 						</a>
 						<h1 class="align-top headerNav__title">Maria Manuela Xifra</h1>
@@ -60,39 +63,39 @@
 
 			<!-- empieza servicios -->
 			<div class="content gridContent">
-				<div class="content__img uno">
+				<div class="content__img uno" data-aos="fade-up" data-aos-duration="2000">
 					<img src="../assets/img/line/poppy.jpg" alt="amapolas">
 				</div>
-				<div class="dos">
+				<div class="dos" data-aos="fade-up" data-aos-duration="2000">
 					<h2 class="content__title ">Estampados & estampas</h2>
 					<p class="content__text">Me especializo en el desarrollo de estampados continuos. Desarrollando rapports para estampados rotativos por cilindro, estampados por metro por schablones o para sublimación o estampado digital.<br>También el desarrollo de estampas localizadas en conjunto. <br> Todo según las especificaciones técnicas necesarias para cada cliente o proveedor.</p> 
 				</div>
-				<div class="content__img tres">
+				<div class="content__img tres" data-aos="fade-up" data-aos-duration="2000">
 					<img src="../assets/img/line/butterfly.jpg" alt="mariposas">
 				</div>
-				<div class="cuatro">
+				<div class="cuatro" data-aos="fade-up" data-aos-duration="2000">
 					<h2 class="content__title ">Desarrollos exclusivos o de línea</h2>
 					<p class="content__text">Dentro de mi forma de trabajar pueden optar por elegir <a href="../views/projects.html#custom">desarrollos exclusivos</a>, pensados únicamente para el cliente, analizando su perfil y necesidades, para lograr un producto y colorido acorde. <br><br>
 					O bien por seleccionar <a href="../views/projects.html#line">desarrollos de línea</a>, de los cuales encontraran una selección en la web y que pueden elegir para trabajar en sus colecciones. Estos NO son exclusivos, y pueden ser adquiridos por varios clientes. También pueden ser reservados y utilizados de manera exclusiva, solo a partir del momento de compra.</p>
 				</div>
-				<div class="content__img cinco">
+				<div class="content__img cinco" data-aos="fade-up" data-aos-duration="2000">
 					<img src="../assets/img/general/stripesProduct.jpg" alt="foto producto">
 				</div>
-				<div class="seis">
+				<div class="seis" data-aos="fade-up" data-aos-duration="2000">
 					<h2 class="content__title">Desarrollo de producto</h2>
 					<p class="content__text">Diseño y desarrollo de producto. Esto incluye la morfología, estampa y/o estampado en caso que lo necesite, avíos, coloridos, etc. Y el asesoramiento necesario para su producción.</p>
 				</div>
-				<div class="content__img siete">
+				<div class="content__img siete" data-aos="fade-up" data-aos-duration="2000">
 					<img src="../assets/img/general/pantone.jpg" alt="telas pantone">
 				</div>
-				<div class="ocho">
+				<div class="ocho" data-aos="fade-up" data-aos-duration="2000">
 					<h2 class="content__title">Paletas de color</h2>
 					<p class="content__text">A veces las paletas de colores de los proveedores para la temporada puede ser muy amplia, y no siempre es posible utilizar todo. Por esto, en base al análisis del cliente y de las tendencias que pueden aplicarse a el, propongo el armado de una paleta más acotada y específica según sus necesidades.</p>
 				</div>
-				<div class="content__imgnueve">
+				<div class="content__img nueve" data-aos="fade-up" data-aos-duration="2000">
 					<img src="../assets/img/general/desk.jpg" alt="escritorio">
 				</div>
-				<div class="diez">
+				<div class="diez" data-aos="fade-up" data-aos-duration="2000">
 					<h2 class="content__title">Análisis de tendencias</h2>
 					<p class="content__text">No es solo una bajada de tendencias por temporada. <br>Es la busqueda y análisis de tendencias basada en el cliente, su perfil y el segmento que ocupa o desea ocupar, de manera mas específica y personalizada.</p>
 				</div>
@@ -122,5 +125,11 @@
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+	<!-- js AOS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script> 
+		AOS.init();
+	</script>
 	</body>
 </html>
