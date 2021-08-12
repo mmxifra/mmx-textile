@@ -2,7 +2,7 @@
 
 
 .footer__background--color{
-	background-image: linear-gradient( $backColor, $mainColor);
+	background-image: linear-gradient( $backColor, $mainColor, $introColor);
 }
 .footer{
 	width: 100%;

@@ -98,7 +98,7 @@ body {
     font-weight: 600; }
 
 .headerNav--color {
-  background-image: linear-gradient(#F6DFD6, #FFFBFA); }
+  background-image: linear-gradient(#EEC5B9, #F6DFD6, #FFFBFA); }
 
 @font-face {
   font-family: 'dreamOnly';
@@ -473,7 +473,7 @@ body {
   src: url(../assets/fonts/reckless_sample.ttf); }
 
 .footer__background--color {
-  background-image: linear-gradient(#FFFBFA, #F6DFD6); }
+  background-image: linear-gradient(#FFFBFA, #F6DFD6, #EEC5B9); }
 
 .footer {
   width: 100%;
