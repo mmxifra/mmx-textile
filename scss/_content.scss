@@ -15,6 +15,7 @@
 	}
 	.content__text {
 		padding: $pTextMob;
+		margin: $pm20;
 		a{
 			color: map-get($color, accentColor);
 			font-weight: $medium;

@@ -131,7 +131,8 @@ body {
       font-size: 3rem; } }
 
 .content .content__text {
-  padding: 15px 5px; }
+  padding: 15px 5px;
+  margin: 20px; }
   .content .content__text a {
     color: #D69C93;
     font-weight: 600; }
