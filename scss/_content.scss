@@ -28,6 +28,10 @@
 	.content__img{
 		width: $img;
 		padding: $pm10;
+		&:hover{
+			transition: 1s;
+			transform: scale(0.95);
+		}
 	}
 	.content__img--size{
 		width: $profileImg;
