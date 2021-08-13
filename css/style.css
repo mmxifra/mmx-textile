@@ -24,8 +24,7 @@ body {
   justify-content: center;
   font-family: "montserrat", sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
-  overflow-x: hidden; }
+  font-size: 1.5rem; }
   @media only screen and (min-width: 768px) {
     body {
       font-size: 1.5rem; } }
@@ -50,7 +49,7 @@ body {
     @media only screen and (min-width: 1024px) {
       body .intro, body .content, body .projectData, body .contactForm {
         padding: 10px 50px; } }
-  body form.contactForm, body .row.contactForm.index__background--color.aos-init, body .row.footer__background--color, body .row.contactForm.index__background--color.aos-init.aos-animate, body .col-lg-12.col-sm-12.col-xs-12, body .row.contactForm.index__background--color.aos-init.aos-animate, body .row.projectData, body .row.content, body body, body .row.index__background--img {
+  body form.contactForm, body .row.contactForm.index__background--color.aos-init, body .footer__index, body .row.contactForm.index__background--color.aos-init.aos-animate, body .col-lg-12.col-sm-12.col-xs-12, body .row.contactForm.index__background--color.aos-init.aos-animate, body .row.projectData, body .row.content, body body, body .row.index__background--img {
     max-width: 100%;
     margin: 0;
     padding: 0; }
