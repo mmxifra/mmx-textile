@@ -22,9 +22,9 @@
 	.contactForm__data input, .contactForm__option select, .contactForm__text textarea{
 		border: none;
 		border-radius: 5px;
-		margin: $pm5;
+		margin-top: $pm10;
 		background-color: $formColor;
-			width: 100%;
+			width: 90%;
 		@media only screen and (min-width: 768px){
 			width: 80%;
 		}
