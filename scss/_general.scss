@@ -51,6 +51,11 @@ body{
 			padding: $pContainerDesk;
 		}
 	}
+	form.contactForm,.row.contactForm.index__background--color.aos-init,.row.footer__background--color, .row.contactForm.index__background--color.aos-init.aos-animate, .col-lg-12.col-sm-12.col-xs-12, .row.contactForm.index__background--color.aos-init.aos-animate, .row.projectData, .row.content, body, .row.index__background--img{
+		max-width: 100%;
+		margin: 0;
+		padding:0;
+	}
 }
 
 

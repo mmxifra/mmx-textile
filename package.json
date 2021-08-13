@@ -1,7 +1,7 @@
 {
   "name": "rootclase11-mmx",
   "version": "1.0.0",
-  "description": "",
+  "description": "Maquetado de mi sitio personal, como diseñadora, compuesto por 5 secciones: \r * Home - index.html\r * Sobre mi - about.html\r * Servicios - services.html\r * proyectos - projects.html\r * contacto - contact.html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,13 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmxifra/mmx-textile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmxifra/mmx-textile/issues"
+  },
+  "homepage": "https://github.com/mmxifra/mmx-textile#readme"
 }
