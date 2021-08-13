@@ -58,9 +58,14 @@
 	.projectData__img{
 		max-width: $img;
 		margin-top: $pm20;
+		margin-bottom: $pm20;
 		&:hover{
 			transition: 1s;
 			transform: scale(1.02);
+		}
+		h4{
+			margin-top: $pm10;
+			margin-bottom: $pm25;
 		}
 	}
 }

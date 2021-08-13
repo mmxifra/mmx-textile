@@ -29,15 +29,23 @@
 			width: 80%;
 		}
 	}
+	.contactForm__data.index input, .contactForm__option.index select, .contactForm__text.index textarea{
+			width: 90%;
+		@media only screen and (min-width: 768px){
+			width: 60%;
+		}
+	}
 
 	.contactForm__info{
+		color: $textColor;
+		font-weight: $regular;
 		justify-content: center;
 		padding: $pm20;
 		margin: $pm5;
 	}
 	.contactForm__img img{
 		@media only screen and (min-width: 1024px){
-			width: 80%;
+			width: 75%;
 		}
 	}
 }
